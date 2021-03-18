@@ -7,4 +7,6 @@ required:
 
 `maven clean package`
 
+example of manualAck and lagging consumer:
+
 `java -jar target/amqp-sender-jar-with-dependencies.jar autoAck=false processDurationSeconds=5`
