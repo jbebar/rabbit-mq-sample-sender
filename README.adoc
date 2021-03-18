@@ -1,0 +1,10 @@
+# Startup
+
+required: 
+- maven 3.6
+- jvm 11
+
+
+`maven clean package`
+
+`java -jar target/amqp-sender-jar-with-dependencies.jar autoAck=false processDurationSeconds=5`
