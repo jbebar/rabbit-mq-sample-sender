@@ -7,6 +7,6 @@ required:
 
 `maven clean package`
 
-example of manualAck and lagging consumer:
+example, send 10 messages to rabbit mq broker:
 
-`java -jar target/amqp-sender-jar-with-dependencies.jar autoAck=false processDurationSeconds=5`
+`java -jar target/amqp-sender-jar-with-dependencies.jar 10`
